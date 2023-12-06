@@ -35,23 +35,12 @@
 
         </div>
 
-        <?php
-        echo "あいうえお";
-        $name =29;
-
-        echo $name;
-
-        $num = rand(1,5);
-
-        if($num === 1){
-            echo "1です";
-        }else{
-            echo "2です";
-        }
-
-
-
-        ?>
+        <form action="read.php" method="get">
+            <p>名前：<input type="text" name="name" size="20"></p>
+            <p>メール：<input type="text" name="mail" size="20"></p>
+            <p>すきなゲーム：<input type="text" name="game" size="20"></p>
+            <p><input type="submit" value="送信"></p>
+        </form>
         
     </div>
     
