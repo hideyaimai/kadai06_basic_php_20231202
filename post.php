@@ -39,6 +39,10 @@
             <p>名前：<input type="text" name="name" size="20"></p>
             <p>メール：<input type="text" name="mail" size="20"></p>
             <p>すきなゲーム：<input type="text" name="game" size="20"></p>
+            <div class="input-group mt-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">氏名</span>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
             <p><input type="submit" value="送信"></p>
         </form>
         
